@@ -1,0 +1,19 @@
+{
+  "name": "teflon",
+  "version": "0.0.0",
+  "description": "",
+  "author": "danielbushman <daniel@sngsft.com>",
+  "main": "functions/__init__.js",
+  "dependencies": {},
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "danielbushman/teflon",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}
